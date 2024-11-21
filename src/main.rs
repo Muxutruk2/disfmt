@@ -90,7 +90,7 @@ fn transform_code(input: &str) -> String {
     lines
         .into_iter()
         .map(|line| {
-            if line.trim_end().ends_with(|c| symbols.contains(&c)) {
+            if line.trim_end().ends_with(symbols) {
                 // If the line ends with a symbol, find its position and calculate padding.
                 line.rfind(|c| symbols.contains(&c)).map_or_else(|| line.to_string(), |pos| {
                     let padding = max_len - pos;
