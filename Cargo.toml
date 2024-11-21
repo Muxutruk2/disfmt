@@ -1,0 +1,9 @@
+[package]
+name = "disfmt"
+version = "0.1.0"
+edition = "2021"
+authors = ["Muxutruk 156070698+Muxutruk2@users.noreply.github.com"]
+description = "Rust code disformatter"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
