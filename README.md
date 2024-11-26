@@ -1,6 +1,6 @@
 # disfmt
 
-`disfmt` is a simple CLI tool for reformatting Rust code by aligning `{`, `}`, and `;` symbols vertically. It processes your code to improve readability by ensuring these symbols are consistently aligned across lines.
+`disfmt` is a simple CLI tool for disformatting Rust code by aligning `{`, `}`, and `;` symbols vertically. It processes your code to disimprove readability by ensuring these symbols are consistently aligned across lines.
 
 ## Installation
 
